@@ -21,23 +21,27 @@ text-decoration: none;
     color: #4d5ae5;
 }
 .studio {
-    color: #f4f4fd;
+    color: #2e2f42;
 }
 
-.page-nav{
-    color: #2E2F42;
+.link-nav{
+    color:#2e2f42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.page-nav a:hover, .page-nav a:active {
+.link-nav a:hover, .link-nav a:active {
     color: #404BBF;
 }
 
 
 .page-address {
+    font-style: normal
+}
+
+.link-address {
     color: #434455;
     background-color: white;
     font-weight: 400;
@@ -46,10 +50,10 @@ text-decoration: none;
     letter-spacing: 0.02em;
 }
 
-.page-address a:hover {
+.link-address a:hover, .link-address a:focus {
     color: #404BBF;
 }
-.page-nav a:active {
+.link-address a:active {
     color: #404BBF;
 }
 
