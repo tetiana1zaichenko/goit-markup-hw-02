@@ -93,38 +93,76 @@ background-color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.section_team_title {
+.section-team {
+    background-color: #F4F4FD;
+}
+.team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
-.section_team {
+.team-performance {
+background-color: #FFFFFF
+}
+
+.team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2E2F42;
+}
+.team-job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 
-.section_portfolio {
+.portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
-
-.page-footer {
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+}
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer-page {
 color:#F4F4FD;
 background-color: #2E2F42;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5%;
+letter-spacing: 0.02em;
+color: #F4F4FD;
 }
 .page-footer a {
     text-decoration: none;
