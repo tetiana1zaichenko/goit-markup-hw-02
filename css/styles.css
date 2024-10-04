@@ -32,12 +32,10 @@ text-decoration: none;
     letter-spacing: 0.02em;
 }
 
-.page-nav a:hover {
+.page-nav a:hover, .page-nav a:active {
     color: #404BBF;
 }
-.page-nav a:active {
-    color: #404BBF;
-}
+
 
 .page-address {
     color: #434455;
@@ -55,9 +53,11 @@ text-decoration: none;
     color: #404BBF;
 }
 
-.title {
-    color: white;
+.section-title {
     background-color: #2e2f42;
+}
+.text-title {
+    color: #ffffff;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -65,7 +65,7 @@ text-decoration: none;
     text-align: center;
     
 }
-.button title {
+.button-title {
     color: white;
     background-color:#4D5AE5;
     font-weight: 500;
@@ -75,13 +75,19 @@ text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
 }
-.button title:hover {
-color: #404BBF;
+.button-title:hover, .button-title:focus {
+background-color: #404BBF;
 }
 
-.section_title {
+.advantages-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.advantages-text {
     color: #434455;
-    background-color: white;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
