@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #000000;
+    color:#434455;
     background-color: white;
 }
 .page-nav a {
@@ -57,7 +57,7 @@ text-decoration: none;
 
 .title {
     color: white;
-    background-color: #2E2F42;
+    background-color: #2e2f42;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -65,18 +65,17 @@ text-decoration: none;
     text-align: center;
     
 }
-.botton title {
+.button title {
     color: white;
-    background-color: #4D5AE5;
+    background-color:#4D5AE5;
     font-weight: 500;
-    font-size: 10px;
-    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
-    width: 169px;
-    height: 56px;
     cursor: pointer;
 }
-.botton title:hover {
+.button title:hover {
 color: #404BBF;
 }
 
