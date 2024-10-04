@@ -50,10 +50,10 @@ text-decoration: none;
     letter-spacing: 0.02em;
 }
 
-.link-address a:hover, .link-address a:focus {
+.link-address:hover, .link-address:focus {
     color: #404BBF;
 }
-.link-address a:active {
+.link-address:active {
     color: #404BBF;
 }
 
