@@ -32,7 +32,7 @@ text-decoration: none;
     letter-spacing: 0.02em;
 }
 
-.link-nav a:hover, .link-nav a:active {
+.link-nav:hover, .link-nav:active {
     color: #404BBF;
 }
 
